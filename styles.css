@@ -154,7 +154,7 @@ footer {
 
 /* --- Mobile responsive --- */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .header {
     padding: 15px 20px;
     flex-wrap: wrap;
@@ -247,7 +247,6 @@ footer {
 
   
 }
-
 
 
 
