@@ -50,11 +50,6 @@
     color: #ccc;
 }
 
-.game-category {
-    flex: 1;
-    max-width: 500px;
-}
-
 .category-header {
     display: flex;
     justify-content: space-between;
