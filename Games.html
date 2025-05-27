@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Playgique</title>
-        <link rel="stylesheet" href="styles.css">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-            rel="stylesheet">
-            <link rel="icon" type="image/png" href="steam.png">
-    </head>
-    <body>
-        <header class="header">
-            <a href="index.html" class="logo">Playgique</a>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Playgique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="steam.png" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Playgique</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="Games.html">Games</a>
+            <a href="profile.html">Profile</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
 
-            <nav class="navbar">
-                <a href="index.html">Home</a>
-                <a href="Games.html">Games</a>
-                <a href="profile.html">Profile</a>
-                <a href="Contact.html">Contact</a>
-            </nav>
-        </header>
+    <main>
+        <section class="game-section" id="game-list"></section>
+        <div style="text-align: center; margin: 30px 0;">
+            <button id="load-more" class="load-more-button">Zie meer</button>
+        </div>
+    </main>
 
-        <main>
-            
-        </main>
+    <footer>
+        <p>&copy; 2025 Playgique, Alle rechten voorbehouden.</p>
+    </footer>
 
-        <footer>
-            <p>&copy; 2025 Playgique, Alle rechten voorbehouden.</p>
-        </footer>
-    </body>
+    <script src="scripts.js"></script>
+</body>
 </html>

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playgique</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="gamecards.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -21,16 +23,33 @@
         <a href="Contact.html">Contact</a>
       </nav>
     </header>
-
+    <section class="container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img id="slide-1" src="images/hollowknight.jpg" alt="Hollow Knight" />
+          <img id="slide-2" src="images/gta.jpg" alt="gta " />
+          <img id="slide-3" src="images/mineraft.jpg" alt="minecraft" />
+        </div>
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
+    </section>
     <main>
-      <section class="game-section">
+      <section class="game-sections">
         <div class="game-category">
           <div class="category-header">
             <h2>Bestsellers</h2>
-            <a href="bestseller.html">Zie meer</a>
+            <a href="Games.html">Zie meer</a>
           </div>
-          <div class="game-card">
-            <img src="elden ring.jpg" alt="Elden Ring" />
+          <div class="game-cards">
+            <div class="card-images">
+              <a href="https://www.youtube.com/watch?v=E3Huy2cdih0" target="_blank">
+              <img src="images/eldenring.jpg" alt="Elden Ring" />
+              </a>
+            </div>
             <div class="game-info">
               <h2>Elden ring</h2>
               <h5>
@@ -39,8 +58,12 @@
               <div class="rating">⭐ 4.8/5</div>
             </div>
           </div>
-          <div class="game-card">
-            <img src="sekiro.jpg" alt="Sekiro Shadows Die Twice" />
+          <div class="game-cards">
+            <div class="card-images">
+              <a href="https://www.youtube.com/watch?v=rXMX4YJ7Lks" target="_blank">
+              <img src="images/sekiro.jpg" alt="Sekiro Shadows Die Twice" />
+              </a>
+            </div>
             <div class="game-info">
               <h2>Sekiro</h2>
               <h5>Intens ninja-avontuur met snelle zwaardactie en stealth.</h5>
@@ -52,10 +75,14 @@
         <div class="game-category">
           <div class="category-header">
             <h2>New releases</h2>
-            <a href="newrelease.html">Zie meer</a>
+            <a href="Games.html">Zie meer</a>
           </div>
-          <div class="game-card">
-            <img src="doom.jpg" alt="Doom the dark ages" />
+          <div class="game-cards">
+            <div class="card-images">
+              <a href="https://www.youtube.com/watch?v=4tk8lkmYGWQ" target="_blank">
+              <img src="images/doom.jpg" alt="Doom the dark ages" />
+              </a>
+            </div>
             <div class="game-info">
               <h2>Doom</h2>
               <h5>
@@ -65,8 +92,12 @@
               <div class="rating">⭐ 4.3/5</div>
             </div>
           </div>
-          <div class="game-card">
-            <img src="assasin creed.jpg" alt="Image van een game" />
+          <div class="game-cards">
+            <div class="card-images">
+              <a href="https://www.youtube.com/watch?v=vovkzbtYBC8" target="_blank">
+              <img src="images/assasincreed.jpg" alt="assasin's creed" />
+              </a>
+            </div>
             <div class="game-info">
               <h2>Assasin's creed shadows</h2>
               <h5>
@@ -85,4 +116,3 @@
     </footer>
   </body>
 </html>
-
