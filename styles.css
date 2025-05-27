@@ -54,7 +54,7 @@ main {
 
 .navbar a::before {
     content: '';
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     width: 0;
